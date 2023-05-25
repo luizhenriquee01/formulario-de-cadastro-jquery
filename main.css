@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #070000;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  font-size: 35px;
+}
+header img {
+  margin-left: 35px;
+  max-width: 10%;
+}
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  display: block;
+  padding: 8px;
+  margin: 8px;
+  background-color: #347254;
+  color: #fff;
+  border: none;
+}
+form {
+  max-width: 1800px;
+}
+form button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  background-color: #119759;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.form-row {
+  padding: 8px;
+}
+::placeholder {
+  color: #fff;
+}
+.nomeCompleto {
+  background-color: #347254;
+  border: none;
+}
+
+.form-row input {
+  display: inline;
+  margin-right: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #347254;
+  color: #fff;
+  border: none;
+}
+#cep {
+  width: 42%;
+  height: 40px;
+}
+body {
+  background-color: #a0bdaf;
+}

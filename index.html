@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Formulário de cadastro</h1>
+      <img src="/images/2080887.png" alt="" />
+    </header>
+    <form id="formValidate">
+      <div class="container">
+        <div class="form-campo">
+          <label for="nomeCompleto"><strong>Nome completo:</strong> </label>
+          <input type="text" name="nomeCompleto" id="nomeCompleto" />
+        </div>
+        <div class="form-campo">
+          <label for="cpf"><strong>CPF:</strong> </label>
+          <input type="text" name="cpf" id="cpf" />
+        </div>
+        <div class="form-campo">
+          <label for="email"><strong>E-mail:</strong> </label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="form-campo">
+          <label for="telefone"><strong>Telefone:</strong> </label>
+          <input type="tel" name="telefone" id="telefone" />
+        </div>
+
+        <div class="form-campo">
+          <label for="address"> <strong>Endereço</strong> </label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Ex: Rua"
+          />
+        </div>
+        <div class="form-campo">
+          <label for="text"> <strong>Complemento:</strong> </label>
+          <input
+            type="text"
+            id="complemento"
+            name="completmento"
+            placeholder="Ex: Apto 32"
+          />
+        </div>
+        <div class="form-row">
+          <label for="cidade"> <strong>Cidade:</strong> </label>
+          <input
+            type="text"
+            id="cidade"
+            name="cidade"
+            placeholder=" Ex: Sao paulo"
+          />
+
+          <label for="estado"> <strong>Estado:</strong> </label>
+          <input
+            type="text"
+            id="estate"
+            name="estate"
+            placeholder=" Ex: Sao Paulo"
+          />
+        </div>
+
+        <div class="form-campo">
+          <label for="cep"> CEP: </label>
+          <input
+            type="text"
+            id="cep"
+            name="cep"
+            placeholder=" Ex:00000-000"
+          /><br /><br />
+        </div>
+        <button type="submit" id="myButton">Enviar</button>
+      </div>
+    </form>
+  </body>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script src="JS/jquery.mask.min.js"></script>
+  <script src="JS/jquery.validate.min.js"></script>
+  <script src="JS/messages_pt_BR.min.js"></script>
+  <script src="./JS/main.js"></script>
+</html>
